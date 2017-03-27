@@ -1,0 +1,132 @@
+body{
+	background-color: #eeeeee;
+	font-family: Arial,Verdana;
+}
+
+.container{
+	width: 70%;
+	margin: auto;
+}
+
+.database-table{
+	width: 100%;
+	margin: auto;
+	background-color: #ffffff;
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+.database-table tr {
+	border: 1px solid black;
+}
+
+.database-table td{
+	text-align: left;
+	padding:5px;
+}
+
+.database-table th{
+	background-color:#5c88b5;
+	text-align: left;
+}
+
+.nav-links{
+	margin: auto;
+	text-align: center;
+}
+
+.nav-links a{
+	text-decoration: none;
+	color: #3189c4;
+	padding: 20px;
+}
+
+#main-header{
+	margin: auto;
+	text-align: center;
+}
+
+form input,select{
+	margin:0 15px 0 0;
+	padding: 5px 0px;
+}
+
+.delete{
+	color: white;
+	background-color: #d33f2c;
+	border: 0px solid black;
+	padding: 4px 8px;
+	margin:0;
+
+
+	
+}
+
+.btn{
+	color: white;
+	background-color: #3189c4;
+	border: 1px solid #3189c4;
+	padding:5px 15px 5px 15px;
+}
+
+.half-width{
+	display: inline-block;
+	width:49.5%;
+	text-align: left;
+
+}
+
+.center{
+	margin: auto;
+	width: 100%;
+	text-align: center;
+}
+
+
+
+.well{
+	background-color: white;
+	border: 1px solid black;
+	padding: 5px;
+}
+
+.search{
+	display:inline-block;
+	float: left;
+	margin-top:10px;
+}
+
+.search input, .filters div{
+	margin:6px 0;
+	padding:5px 15px;
+
+}
+
+.filters{
+	text-align: right;
+}
+
+.filters h5{
+	margin: 0;
+	padding:0;
+	text-align:left;
+}
+
+.filters div{
+	display:inline-block;
+	padding:0;
+	margin-left:15px;
+}
+
+.filters .btn{
+	margin-left: 0;
+}
+
+.filters input, select{
+	margin-right:3px;
+	max-width: 100px;
+}
+
+.dropdown{
+	max-width:25%;
+}
